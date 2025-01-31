@@ -27,4 +27,18 @@ function atualizarLista() {
             li.textContent = nome;
             lista.appendChild(li);
         });
+    }// Implementaão de uma função para selecionar aleatoriamente um amigo
+function sortearAmigoSecreto() {
+    // Verificação se o array de amigos não está vazio
+        if (amigos.length === 0) {
+            alert('A lista de amigos está vazia. Adicione amigos antes de sortear.');
+            return;
+        }
+    // Geração de um índice aleatório
+        let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    // Obtenção do nome do amigo sorteado
+        let amigoSorteado = amigos[indiceAleatorio];
+    // Exibição de amigo sorteado
+        let resultado = document.getElementById('resultadoSorteio');
+        resultado.innerHTML = `Amigo sorteado: ${amigoSorteado}`;
     }
