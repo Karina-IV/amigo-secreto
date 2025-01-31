@@ -15,4 +15,16 @@ function adicionar() {
     atualizarLista(); 
  // Limpar o campo de entrada
     nomeInput.value = "";
-}
+}// Implementação de uma função para atualizar a lista de amigos
+function atualizarLista() {
+    // Obter o elemento da lista 
+        let lista = document.getElementById("listaAmigos");
+    // Limpar a lista existente
+        lista.innerHTML = "";
+    // Percorrer o array de amigos e adicionar cada nome como elemento
+        amigos.forEach(nome => {
+            let li = document.createElement("li");
+            li.textContent = nome;
+            lista.appendChild(li);
+        });
+    }
