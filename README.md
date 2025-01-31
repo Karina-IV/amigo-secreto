@@ -47,9 +47,9 @@ O jogo é simples, mas interessante. Experimente e descubra quem é seu amigo se
 
 <p>Clique em "Sortear Amigo" e veja quem foi escolhido aleatoriamente.</p>
 
-<h2>Autor</h2>
+<h2>Autóres</h2>
 
-<h3>Karina Ivanova Varlamova</h3>
+<h3>Karina Ivanova Varlamova & ALURA Team</h3>
 <img alt="Licence Free" src="https://img.shields.io/badge/licence-free-green">
 <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-yellow">
 <img alt="Date Release" src="https://img.shields.io/badge/release%20date-february%202025-blue">
