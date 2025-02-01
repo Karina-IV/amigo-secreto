@@ -37,7 +37,7 @@ function atualizarLista() {
         lista.appendChild(li);
     });
 }
-// Implementaão de uma função para selecionar aleatoriamente um amigo
+// Implementação de uma função para selecionar aleatoriamente um amigo
 function sortearAmigo() {
 // Verificação se o array de amigos não está vazio
     if (amigos.length === 0) {
