@@ -47,7 +47,7 @@ Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatori
 
 <h2>Autores</h2>
 
-<h3>Karina Ivanova Varlamova & ALURA Team</h3>
+<h4>Karina Ivanova Varlamova & ALURA Team</h4>
 <img alt="Licence Free" src="https://img.shields.io/badge/licence-free-green">
 <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-yellow">
 <img alt="Date Release" src="https://img.shields.io/badge/release%20date-february%202025-blue">
